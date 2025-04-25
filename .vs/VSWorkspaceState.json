@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
     "",
+    "\\.github",
+    "\\.github\\workflows",
     "\\public",
     "\\src",
     "\\src\\components",
@@ -9,6 +11,6 @@
     "\\src\\lib",
     "\\src\\pages"
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\.github\\workflows\\deploy.yml",
   "PreviewInSolutionExplorer": false
 }
