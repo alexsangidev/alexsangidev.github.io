@@ -110,7 +110,7 @@ export default function HeroSection() {
             <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
               <p className="pb-4">
-                I'm a passionate Game Programmer with over 5 years of professional experience specializing in Unreal Engine 4 / Unreal Engine 5 and C++ development. I’ve contributed to the successful release of multiple titles, focusing on building gameplay mechanics, gameplay systems, and user interface elements that enhance player engagement. My work often involves performance optimization, ensuring smooth and immersive gameplay across platforms.
+                I'm a passionate Game Programmer with over 6 years of experience specializing in Unreal Engine 4 / Unreal Engine 5 and C++ development. I’ve contributed to the successful release of multiple titles, focusing on gameplay mechanics, multiplayer and core game systems, AI and large-scale simulation, and user interface elements that enhance player engagement. My work often involves performance optimization, ensuring smooth and immersive gameplay across platforms.
               </p>
               <p className="pb-4">
                 Whether it's prototyping innovative features or refining complex systems, I thrive on solving problems and collaborating with multidisciplinary teams. I bring a strong foundation in object-oriented programming, blueprint/C++ integration, and a deep understanding of game engine architecture.

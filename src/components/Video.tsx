@@ -22,6 +22,27 @@ export default function LazyYouTube({
   const [w, h] = aspectRatio.split('/').map(Number);
   const paddingTop = `${(h / w) * 100}%`;
 
+  // Some projects only have a still image (no public video yet), so skip the player
+  if (!videoId) {
+    return (
+      <div style={{ position: 'relative', width: '100%', paddingTop }}>
+        <img
+          src={thumbnail}
+          alt={alt}
+          loading="lazy"
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            width: '100%',
+            height: '100%',
+            objectFit: 'cover',
+          }}
+        />
+      </div>
+    );
+  }
+
   return (
     <div
       style={{

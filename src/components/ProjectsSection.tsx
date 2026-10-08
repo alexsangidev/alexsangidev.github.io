@@ -58,7 +58,7 @@ export default function ProjectsSection() {
                       whileHover={{ scale: 1.05 }}
                       whileTap={{ scale: 0.95 }}
                     >
-                      View on Steam 🔗
+                      {project.linkLabel ?? "View on Steam 🔗"}
                     </motion.a>
                   )}
                 </CardFooter>

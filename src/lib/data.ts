@@ -7,30 +7,39 @@ export const personalInfo = {
 
 export const workExperience = [
   {
+    company: "Welevel Studios",
+    location: "Munich, Germany, Remote",
+    position: "Unreal Engine C++ Programmer (Freelance)",
+    period: "Jul 2026 - Oct 2026",
+    achievements: [
+      "On Solid River, a medieval survival and village-building game in Unreal Engine 5, I built the complete villager simulation on the Mass Entity framework, with villager AI driven by StateTree. I designed the task, job and interaction systems on top of actorless Smart Objects with custom entrance and exit slots. I generated ZoneGraph at runtime so villagers could reach dynamically placed tasks, using Zone Shapes to build proper lane junctions and intersections, and implemented a hybrid navigation model where villagers travel along ZoneGraph lanes and hand off to NavMesh pathfinding for the final approach to each task."
+    ]
+  },
+  {
+    company: "Z House Studios",
+    location: "Dubai, UAE, Remote",
+    position: "Unreal Engine C++ Gameplay Programmer (Freelance)",
+    period: "Sep 2025 - Present",
+    achievements: [
+      "On Ex World Online, an anime-inspired MMORPG built in Unreal Engine 5 with dedicated servers, I design and implement server-authoritative core systems: guilds, marriage, karma and crime, a bounty board, NPC patrols and daily activities, gathering minigames, player storage and currency, and seasonal live events such as a procedurally generated maze. I build networked features with replication, RPCs and dedicated Linux servers integrated with backend REST APIs, create game UI with UMG and Slate, and develop NPC AI with custom Behavior Tree tasks, services and decorators."
+    ]
+  },
+  {
     company: "Dreamworld Inc.",
     location: "San Francisco, USA, Remote",
-    position: "Game Programmer",
-    period: "May 2023 - Present",
+    position: "Unreal Engine C++ Programmer (Freelance)",
+    period: "May 2023 - Sep 2025",
     achievements: [
       "As a Programmer on DreamWorld, a large-scale survival online MMO, I was responsible for designing and implementing core gameplay systems, including a robust building system with features like copy & paste, fine-tuned placement mechanics, and structural rules. I developed a dynamic quest system with support for daily and weekly objectives, complete with server reset validation. I also led the development of in-game UI, creating complex interfaces such as the inventory, map, and compass, with seamless C++ and Blueprint integration. Additionally, I implemented full localization support for multiple languages and cultural formats. A key part of my role involved in-depth performance optimization and memory profiling to ensure a smooth and stable experience in a multiplayer environment."
     ]
   },
   {
-    company: "Equpison S.A.",
+    company: "Equipson S.L.",
     location: "Valencia, Spain",
-    position: "Software Engineer",
-    period: "Feb 2022 - May 2023",
+    position: "Unreal Engine C++ Programmer (Freelance)",
+    period: "Feb 2022 - Present",
     achievements: [
       "In MyStage, a live event visualization software, I played a key role in integrating real-time live event technologies including DMX, ArtNet, and sACN protocols. I developed full support for lighting fixtures, implementing features such as gobo and color wheels, prisms, strobe effects, framing, and rotation controls. I also built a user-friendly UI that allowed real-time control over all scene actors, enabling users to spawn, delete, transform, and configure entity attributes intuitively. My work included NDI integration for live video feeds, a save/load system for project states, and support for screenshots, recording, and streaming to streamline production workflows. This project required a high level of precision, performance, and usability, which I achieved through optimized C++ development and careful system design.",      
-    ],
-  },
-  {
-    company: "DUV Studios",
-    location: "Valencia, Spain",
-    position: "Game Programmer",
-    period: "Sep 2020 - Feb 2022",
-    achievements: [
-      "At DUV Studios, I worked as an Unreal Engine C++ Programmer on a rail shooter game released on Steam in 2021. I was responsible for developing a wide range of gameplay features, player controls, and UI/UX interactions, ensuring a smooth and engaging player experience. I designed and implemented AI enemy behaviors and combat mechanics, and led key performance optimization efforts to maintain stable framerates on the PlayStation 4 platform. I also handled Steam integration, including Steam Achievements and platform services. The project received international recognition, winning Best Game in the World Game Development Championship 2021 (Hobby Category).",
     ],
   },
 ];
@@ -48,8 +57,11 @@ export const skills = {
     "C",
     "C++",
     "C#",
-    "Unreal Engine(UE4 / UE5)",
+    "Unreal Engine (UE4 / UE5)",
     "Blueprints",
+    "UMG / Slate",
+    "Mass Entity, StateTree, Smart Objects, ZoneGraph",
+    "Behavior Trees & AI",
     "OpenGL",
     "Lua",
   ],
@@ -60,7 +72,10 @@ export const skills = {
   ],
   backendDevelopment: [   
     "Unreal Engine Networking",
-    "Replication",
+    "Replication & RPCs",
+    "Dedicated servers (Linux)",
+    "Server-authoritative gameplay",
+    "Backend / REST API integration",
     "client - Server architecture",
     "Network Optimization", 
     "Latency Reduction"
@@ -70,7 +85,8 @@ export const skills = {
     "Perforce",
     "Visual Studio",
     "CMake",
-    "Jira"
+    "Jira",
+    "Agile / Scrum"
   ],
   toolsAndServices: [
     "Strong problem-solving and debugging skills",
@@ -80,6 +96,30 @@ export const skills = {
 };
 
 export const projects = [
+  {
+    title: "Solid River",
+    github: "https://store.steampowered.com/app/1551260/Solid_River/",
+    thumbnail: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1551260/header.jpg",
+    description: [
+      "Architected and built the full villager simulation on Unreal Engine 5 Mass Entity (data-oriented ECS), with villager AI driven by StateTree",
+      "Designed the villager task, job and interaction systems on top of actorless Smart Objects with custom entrance and exit slots",
+      "Generated ZoneGraph at runtime so villagers can reach dynamically placed tasks, using Zone Shapes to build proper lane junctions and intersections",
+      "Implemented hybrid ZoneGraph / NavMesh navigation: lane-based crowd movement over distance, handing off to NavMesh pathfinding for the final approach to each task",
+    ],
+  },
+  {
+    title: "Ex World Online",
+    github: "https://www.zhousestudios.com/",
+    linkLabel: "Visit website 🔗",
+    VideoID: "tES5z7UljTM",
+    description: [
+      "Designed and implemented server-authoritative core systems for an Unreal Engine 5 MMORPG: guilds, marriage, karma and crime, and a bounty board",
+      "Built NPC patrols and daily activities with custom Behavior Tree tasks, services and decorators",
+      "Developed gathering minigames, player storage and currency, and seasonal live events such as a procedurally generated maze",
+      "Implemented networked features with replication, RPCs and dedicated Linux servers, integrated with backend REST APIs",
+      "Created game UI with UMG and Slate, including the bounty browser, guild war timeline and storage interfaces",
+    ],
+  },
   {
     title: "Dreamworld",
     github: "https://store.steampowered.com/app/3103280/DreamWorld_The_Infinite_Sandbox_MMO/",
@@ -95,7 +135,7 @@ export const projects = [
   },
   {
     title: "Aces In The Dust",
-    github: "https://github.com/rishikesh2003/mental-aarog",
+    github: "https://store.steampowered.com/app/1658080/Aces_in_the_Dust/",
     thumbnail: "/Aces_Thumbnail.jpg",
     VideoID: "w0xEMUX5l7c",
     description: [
