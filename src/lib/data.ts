@@ -19,9 +19,9 @@ export const workExperience = [
     company: "Z House Studios",
     location: "Dubai, UAE, Remote",
     position: "Unreal Engine C++ Gameplay Programmer (Freelance)",
-    period: "Sep 2025 - Present",
+    period: "Sep 2025 - Jul 2026",
     achievements: [
-      "On Ex World Online, an anime-inspired MMORPG built in Unreal Engine 5 with dedicated servers, I design and implement server-authoritative core systems: guilds, marriage, karma and crime, a bounty board, NPC patrols and daily activities, gathering minigames, player storage and currency, and seasonal live events such as a procedurally generated maze. I build networked features with replication, RPCs and dedicated Linux servers integrated with backend REST APIs, create game UI with UMG and Slate, and develop NPC AI with custom Behavior Tree tasks, services and decorators."
+      "On Ex World Online, an anime-inspired MMORPG built in Unreal Engine 5 with dedicated servers, I designed and implemented server-authoritative core systems: guilds, marriage, karma and crime, a bounty board, NPC patrols and daily activities, gathering minigames, player storage and currency, and seasonal live events such as a procedurally generated maze. I built networked features with replication, RPCs and dedicated Linux servers integrated with backend REST APIs, created game UI with UMG and Slate, and developed NPC AI with custom Behavior Tree tasks, services and decorators."
     ]
   },
   {
