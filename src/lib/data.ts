@@ -37,9 +37,18 @@ export const workExperience = [
     company: "Equipson S.L.",
     location: "Valencia, Spain",
     position: "Unreal Engine C++ Programmer (Freelance)",
-    period: "Feb 2022 - Present",
+    period: "Feb 2022 - May 2023",
     achievements: [
       "In MyStage, a live event visualization software, I played a key role in integrating real-time live event technologies including DMX, ArtNet, and sACN protocols. I developed full support for lighting fixtures, implementing features such as gobo and color wheels, prisms, strobe effects, framing, and rotation controls. I also built a user-friendly UI that allowed real-time control over all scene actors, enabling users to spawn, delete, transform, and configure entity attributes intuitively. My work included NDI integration for live video feeds, a save/load system for project states, and support for screenshots, recording, and streaming to streamline production workflows. This project required a high level of precision, performance, and usability, which I achieved through optimized C++ development and careful system design.",      
+    ],
+  },
+  {
+    company: "DUV Studios",
+    location: "Valencia, Spain",
+    position: "Gameplay & AI Programmer (Training Contract)",
+    period: "Sep 2020 - Sep 2021",
+    achievements: [
+      "Aces in the Dust, a rail shooter developed by a student team at ESAT as our final-year project and released on Steam in 2021. As gameplay and AI programmer I built gameplay features, player controls, UI/UX interactions, enemy AI behaviors and combat mechanics, and integrated Steamworks and Steam achievements. From June to September 2021 I was fully responsible for the PlayStation 4 port, including performance optimization for stable framerates. The game won 1st place, Hobby Fan Choice at the Game Development World Championship (GDWC 2022).",
     ],
   },
 ];
@@ -122,7 +131,6 @@ export const projects = [
   },
   {
     title: "Dreamworld",
-    github: "https://store.steampowered.com/app/3103280/DreamWorld_The_Infinite_Sandbox_MMO/",
     VideoID: "fa-tgUd4YKo",
     description: [
       "Built an advanced modular building system, allowing players to place, copy, and adjust structures with precision",
